@@ -338,7 +338,7 @@ body {
   z-index: 2;
 }
 
-.hero__photo:not([src]), 
+.hero__photo:not([src]),
 .hero__photo[src=""],
 .hero__photo[src*="placeholder"] {
   background: linear-gradient(135deg, #2563eb, #3b82f6);
@@ -351,7 +351,7 @@ body {
   text-decoration: none;
 }
 
-.hero__photo:not([src])::after, 
+.hero__photo:not([src])::after,
 .hero__photo[src=""]::after,
 .hero__photo[src*="placeholder"]::after {
   content: "AK";
@@ -534,6 +534,13 @@ body {
 
 .experience-card__title {
   font-size: 1.5rem;
+  font-weight: 600;
+  color: #111827;
+  margin-bottom: 0.5rem;
+}
+
+.experience-card__subtitle {
+  font-size: 1.25rem;
   font-weight: 600;
   color: #111827;
   margin-bottom: 0.5rem;
@@ -806,15 +813,15 @@ body {
   .hero__title {
     font-size: 4rem;
   }
-  
+
   .hero__buttons {
     flex-direction: row;
   }
-  
+
   .nav__container {
     padding: 0 1.5rem;
   }
-  
+
   .about__container,
   .experience__container,
   .skills__container,
@@ -828,16 +835,16 @@ body {
     grid-template-columns: 1fr 1fr;
     gap: 4rem;
   }
-  
+
   .hero__text {
     text-align: left;
   }
-  
+
   .hero__image-container {
     width: 350px;
     height: 350px;
   }
-  
+
   .nav__menu {
     display: flex !important;
     position: static;
@@ -848,33 +855,33 @@ body {
     padding: 0;
     z-index: auto;
   }
-  
+
   .nav__link {
     margin-left: 2rem;
     padding: 0;
     border: none;
   }
-  
+
   .nav__link:hover {
     background: none;
   }
-  
+
   .nav__mobile-btn {
     display: none;
   }
-  
+
   .about__grid {
     grid-template-columns: 1fr 1fr;
   }
-  
+
   .skills__grid {
     grid-template-columns: repeat(3, 1fr);
   }
-  
+
   .contact__grid {
     grid-template-columns: 1fr 1fr;
   }
-  
+
   .experience-card__header {
     flex-direction: row;
     justify-content: space-between;
@@ -886,23 +893,23 @@ body {
   .nav__menu {
     display: flex;
   }
-  
+
   .nav__mobile-btn {
     display: none;
   }
-  
+
   .about__grid {
     grid-template-columns: 1fr 1fr;
   }
-  
+
   .skills__grid {
     grid-template-columns: repeat(3, 1fr);
   }
-  
+
   .contact__grid {
     grid-template-columns: 1fr 1fr;
   }
-  
+
   .experience-card__header {
     flex-direction: row;
     justify-content: space-between;
@@ -914,11 +921,11 @@ body {
   .hero__title {
     font-size: 5rem;
   }
-  
+
   .nav__container {
     padding: 0 2rem;
   }
-  
+
   .about__container,
   .experience__container,
   .skills__container,
